@@ -69,6 +69,7 @@ export async function signup(req, res) {
 }
 
 export async function login(req, res) {
+<<<<<<< HEAD
  try {  
    const {email, password} = req.body;
    if  (!email || !password) {
@@ -112,4 +113,11 @@ export async function logout(req, res) {
       console.log("Error in logout controller", error.message);
       return res.status(500).json({ success: false, message: "Internal server error"});
     }
+=======
+  res.send("login route");
+}
+
+export async function logout(req, res) {
+  res.send("Logout route");
+>>>>>>> 7d7c9d4 (signup code update)
 }
