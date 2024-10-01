@@ -51,7 +51,7 @@ vita Tailwind css : user interfaces with its utility-first CSS framework
 http://localhost:3000
 
 # Frontend folder and enter this commands
-npm install
+npm install, 
 npm run dev
 
 
