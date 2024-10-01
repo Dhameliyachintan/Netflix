@@ -12,22 +12,22 @@ User authentication (sign up, login, logout)
 Browse and search for movies
 
 # Technologies Used
-MongoDB: Database to store user data and movie information
-Express: Backend framework for building RESTful APIs
-React: Frontend library for building user interfaces
-Node.js: JavaScript runtime for the backend server
-Mongoose: ODM for MongoDB
-Axios: For making HTTP requests
-JWT: For user authentication
+MongoDB: Database to store user data and movie information,
+Express: Backend framework for building RESTful APIs,
+React: Frontend library for building user interfaces,
+Node.js: JavaScript runtime for the backend server,
+Mongoose: ODM for MongoDB,
+Axios: For making HTTP requests,
+JWT: For user authentication,
 
 # Features
-User authentication (sign up, login, logout)
-Browse and search for movies
-Add movies to a favorites list
+User authentication (sign up, login, logout),
+Browse and search for movies,
+Add movies to a favorites list,
 
 # Installation
-Node.js and npm installed 
-MongoDB installed or access to a MongoDB Atlas account
+Node.js and npm installed, 
+MongoDB installed or access to a MongoDB Atlas account,
 
 # .env and backend directory
 MONGO_URI=your_mongodb_url
@@ -42,10 +42,10 @@ TMDB_API_KEY=your_TMBD_api_key
 
 # FrontEnd Setup 
 # Technologies Used
-React: JavaScript library for building user interfaces
-React Router: For navigation between pages
-CSS/Styled Components: For styling
-vita Tailwind css : user interfaces with its utility-first CSS framework:
+React: JavaScript library for building user interfaces, 
+React Router: For navigation between pages, 
+CSS/Styled Components: For styling, 
+vita Tailwind css : user interfaces with its utility-first CSS framework
 
 # Runs the app in the development mode
 http://localhost:3000
