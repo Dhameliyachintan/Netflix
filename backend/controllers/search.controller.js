@@ -1,7 +1,7 @@
 import { User } from "../modals/user.modal.js";
 import { fetchFromTMDB } from "../services/tmdb.service.js";
 
-export async function searchPersons(req, res) {
+export async function searchPerson(req, res) {
   const { query } = req.params;
   try {
     const response = await fetchFromTMDB(
