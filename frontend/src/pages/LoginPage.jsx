@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
-	const [password, setPassword] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleLogin = (e) => {
-		e.preventDefault();
+    e.preventDefault();
     console.log({ email, password });
-	};
+  };
 
   return (
     <div className="h-screen w-full hero-bg">
@@ -24,7 +24,7 @@ const LoginPage = () => {
             Sign Up
           </h1>
           <form className="space-y-4" onSubmit={handleLogin}>
-          <div>
+            <div>
               <label
                 htmlFor="email"
                 className="text-sm font-medium text-gray-300 block"
@@ -37,7 +37,7 @@ const LoginPage = () => {
                 placeholder="jhondoe"
                 id="email"
                 value={email}
-								onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div>
@@ -53,26 +53,26 @@ const LoginPage = () => {
                 placeholder="......."
                 id="password"
                 value={password}
-								onChange={(e) => setPassword(e.target.value)}
+                onChange={(e) => setPassword(e.target.value)}
               />
             </div>
             <button
               className="w-full py-2 bg-red-600 text-white font-semibold rounded-md
 							hover:bg-red-700"
             >
-              Sign Up
+             Login
             </button>
           </form>
           <div className="text-center text-gray-400">
-            Already a member?{" "}
-            <Link to={"/login"} className="text-red-500 hover:underline">
-              Sign in
+            Do not have a account?{" "}
+            <Link to={"/signuppage"} className="text-red-500 hover:underline">
+              SignUp
             </Link>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default LoginPage;
